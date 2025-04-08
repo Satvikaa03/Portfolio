@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: #ff7200;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff7200;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.projects-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.project-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    color: #ff7200;
+    padding: 20px 0 10px 0;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #ddd;
+    padding: 0 20px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff7200;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+    background-color: #ff6600;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #bbb;
+    font-size: 16px;
+}
+
+</style>
+
+
+<body>
+    <header>
+        <div class="navbar">
+            <h2 class="logo">MY PORTFOLIO</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="projects-section">
+            <h1>My Projects</h1>
+            <div class="project-card-container">
+                <div class="project-card">
+                    <img src="./Sociobee.png" alt="Project 1">
+                    <h3>Sociobee</h3>
+                    <p>Find the events,hackathons and fests around you, be the Social Bee</p>
+                    <a href="C:\Users\kushi\Desktop\PROJECTS\SocioBee (2).html">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="./Mood playlist.png" alt="Project 2">
+                    <h3>MoodyMelody</h3>
+                    <p>Find your songs according to your mood..wohoo!</p>
+                    <a href="C:\Users\kushi\Desktop\PROJECTS\moodymelody.html.html">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="./coffee.png" alt="Project 3">
+                    <h3>CoffeeDay</h3>
+                    <p>Kick start your day with ur coffee</p>
+                    <a href="C:\Users\kushi\Desktop\PROJECTS\coffee\coffee.html.html">View Project</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

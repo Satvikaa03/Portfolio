@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+      
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background: url('C:/Users/kushi/Desktop/Internship Projects/Portfolio/satvikabg.png') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+  
+        .about-container {
+            max-width: 800px;
+            width: 90%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ff7200;
+            margin: 0 auto 20px auto;
+        }
+
+
+        h1 {
+            font-size: 2.5em;
+            color: #ff7200;
+            margin-bottom: 20px;
+        }
+
+        .about-text {
+            font-size: 1.1em;
+            line-height: 1.8;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .skill {
+            background: #ff7200;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        
+        .btn-container {
+            margin-top: 20px;
+        }
+
+        .btn {
+            background: #ff7200;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ff9100;
+        }
+    </style>
+</head>
+<body>
+    <div class="about-container">
+        
+        <img src="C:/Users/kushi/Desktop/Internship Projects/Portfolio/satvikabg.png" alt="Profile Picture" class="profile-pic">
+        
+  
+        <h1>About Me</h1>
+
+       
+        <p class="about-text">
+            Hello! I'm a 3rd-year Computer Science Engineering student at Hyderabad Institute of Technology and Management. As a passionate web developer, I've worked on several exciting projects that showcase my expertise in front-end development using HTML, CSS, and JavaScript. My portfolio reflects my journey and skills, and I'm always eager to explore innovative ideas.
+        </p>
+        <p class="about-text">
+            Beyond technical skills, I take pride in holding leadership roles in student chapters like Toastmasters, SSG, IUCEE-EWB, and affinity clubs like Penlighten. These experiences have honed my leadership, communication, and management skills, forming a strong foundation for my professional growth.
+        </p>
+
+      
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Leadership</div>
+            <div class="skill">Communication</div>
+            <div class="skill">Management</div>
+        </div>
+
+        <div class="btn-container">
+            <button class="btn" onclick="window.location.href='C:\\Users\\kushi\\Desktop\\Internship Projects\\Portfolio\\project.html'">Explore My Projects</button>
+
+        </div>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert('Check out my projects on the Projects page!');
+        }
+    </script>
+</body>
+</html>
